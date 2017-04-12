@@ -42,7 +42,7 @@ group :development, :test do
   gem 'capistrano'
   gem 'capistrano_colors'
   gem 'quiet_assets'
-  gem 'guard-livereload', require: false
+  gem 'guard-livereload', '>= 2.5.2', require: false
   gem 'rack-livereload'
   gem 'rb-fsevent', require: false
 end
